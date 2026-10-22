@@ -4,10 +4,10 @@
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Hii Style by Shiquo</title>
-  <meta name="description" content="Discover fashion, beauty, and lifestyle essentials at HiiStyle." />
-  <meta property="og:title" content="Hii Style by Shiquo" />
-  <meta property="og:description" content="Discover fashion, beauty, and lifestyle essentials at HiiStyle." />
+  <title>HiiStyle | Home Decor &amp; Accessories</title>
+  <meta name="description" content="Discover home decor, tableware, kitchen essentials, and accessories at HiiStyle." />
+  <meta property="og:title" content="HiiStyle | Home Decor &amp; Accessories" />
+  <meta property="og:description" content="Discover home decor, tableware, kitchen essentials, and accessories at HiiStyle." />
   <meta property="og:type" content="website" />
   <link rel="stylesheet" href="styles.css" />
 </head>
@@ -18,7 +18,7 @@
     <div class="side-menu__overlay"></div>
     <aside class="side-menu__panel">
       <div class="side-menu__header">
-        <a href="/" class="side-menu__logo">
+        <a href="#home" class="side-menu__logo">
           <img src="https://images.hiii-style.com/attachments/media/2e5f749f-17c3-48dc-bb1e-6659be45e243.png" alt="Hii Style Logo" />
         </a>
         <button class="side-menu__close" aria-label="Close menu">
@@ -54,16 +54,11 @@
 
         <span class="side-menu__label">Categories</span>
         <ul class="side-menu__links">
-          <li><a href="#">Bath &amp; Body</a></li>
-          <li><a href="#">Headphones</a></li>
-          <li><a href="#">Serving Trays</a></li>
-          <li><a href="#">Backpacks</a></li>
-          <li><a href="#">Cameras</a></li>
-          <li><a href="#">Kitchenware</a></li>
-          <li><a href="#">Fashion</a></li>
-          <li><a href="#">Electronics</a></li>
-          <li><a href="#">Home Decor</a></li>
-          <li><a href="#">Accessories</a></li>
+          <li><a href="#home-decor">Home Decor</a></li>
+          <li><a href="#home-accessories">Home Accessories</a></li>
+          <li><a href="#tableware">Tableware</a></li>
+          <li><a href="#kitchen-dining">Kitchen &amp; Dining</a></li>
+          <li><a href="#cookware">Cookware</a></li>
         </ul>
 
         <span class="side-menu__label">Account</span>
@@ -126,7 +121,7 @@
           <button class="menu-trigger" id="menu-trigger" aria-label="Open navigation menu">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
           </button>
-          <a href="/" class="logo">
+          <a href="#home" class="logo">
             <img src="https://images.hiii-style.com/attachments/media/2e5f749f-17c3-48dc-bb1e-6659be45e243.png" alt="Hii Style Logo" />
           </a>
           <ul>
@@ -160,30 +155,27 @@
     <!-- Category Nav -->
     <div class="category-nav">
       <div class="categories">
-        <span>Bath &amp; Body</span>
-        <span>Headphones</span>
-        <span>Serving Trays</span>
-        <span>Backpacks</span>
-        <span>Cameras</span>
-        <span>Kitchenware</span>
-        <span>Fashion</span>
-        <span>Electronics</span>
-        <span>Home Decor</span>
-        <span>Accessories</span>
+        <a href="#home">Home</a>
+        <a href="#home-decor">Home Decor</a>
+        <a href="#home-accessories">Home Accessories</a>
+        <a href="#tableware">Tableware</a>
+        <a href="#kitchen-dining">Kitchen &amp; Dining</a>
+        <a href="#cookware">Cookware</a>
       </div>
     </div>
   </header>
 
   <main>
+    <section class="home-page" id="home">
     <!-- ===== HERO SLIDESHOW ===== -->
     <section class="hero-slideshow">
       <div class="slideshow-container">
         <div class="slide active">
-          <img src="https://images.hiii-style.com/attachments/media/9bf30cf0-6f28-4222-984b-e9b1b1d7f19b.png" alt="New Collection" />
+          <img src="https://images.hiii-style.com/attachments/media/95d5cea6-6b15-443a-9ad2-b72016001015.jpg" alt="Home decor collection" />
           <div class="hero-content">
             <div class="hero-title">
-              <span class="hero-title-line1">Discover Your</span>
-              <span class="hero-title-line2">Style</span>
+              <span class="hero-title-line1">Make Your</span>
+              <span class="hero-title-line2">House a Home</span>
             </div>
             <button class="hero-shop-btn">
               SHOP NOW
@@ -192,27 +184,14 @@
           </div>
         </div>
         <div class="slide">
-          <img src="https://images.hiii-style.com/attachments/media/3200cba2-d924-44d1-b348-c58c503b1a15.webp" alt="Bath & Body Collection" />
+          <img src="https://images.hiii-style.com/attachments/media/1c42c7c6-da0c-4fe4-ada0-62116818b283.png" alt="Home entertaining collection" />
           <div class="hero-content">
             <div class="hero-title">
-              <span class="hero-title-line1">Premium</span>
-              <span class="hero-title-line2">Essentials</span>
+              <span class="hero-title-line1">Thoughtful Details</span>
+              <span class="hero-title-line2">For Every Home</span>
             </div>
             <button class="hero-shop-btn">
               SHOP NOW
-              <svg class="arrow-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
-            </button>
-          </div>
-        </div>
-        <div class="slide">
-          <img src="https://images.hiii-style.com/attachments/media/c40e5fd8-116f-4ef8-ba3b-04b820c2138a.png" alt="Fashion Forward" />
-          <div class="hero-content">
-            <div class="hero-title">
-              <span class="hero-title-line1">Fashion</span>
-              <span class="hero-title-line2">Forward</span>
-            </div>
-            <button class="hero-shop-btn">
-              EXPLORE
               <svg class="arrow-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
             </button>
           </div>
@@ -230,501 +209,285 @@
         <div class="dots-container">
           <span class="dot active"></span>
           <span class="dot"></span>
-          <span class="dot"></span>
         </div>
       </div>
     </section>
-
-    <!-- ===== TRENDING SECTION ===== -->
-    <section class="trend-section">
-      <h2 class="section-title-h2">Trending Now</h2>
-      <div class="trend-section-content">
-        <a href="#" class="trend-item">
-          <img src="https://images.hiii-style.com/attachments/media/c40e5fd8-116f-4ef8-ba3b-04b820c2138a.png" alt="Balenciaga Tracksuit" />
-          <span>Balenciaga Tracksuit</span>
-        </a>
-        <a href="#" class="trend-item">
-          <img src="https://images.hiii-style.com/attachments/media/d8f47d84-4b7b-48ab-be84-151b61e05bfb.png" alt="Headphones" />
-          <span>Premium Headphones</span>
-        </a>
-        <a href="#" class="trend-item">
-          <img src="https://images.hiii-style.com/attachments/media/dd02e9c1-97b6-44a9-9710-fe4f90d29c57.jpg" alt="Backpacks" />
-          <span>Designer Backpacks</span>
-        </a>
-        <a href="#" class="trend-item">
-          <img src="https://images.hiii-style.com/attachments/media/3200cba2-d924-44d1-b348-c58c503b1a15.webp" alt="Bath & Body" />
-          <span>Bath &amp; Body</span>
-        </a>
-      </div>
     </section>
 
-    <!-- ===== SHOP BY CATEGORY ===== -->
-    <section class="shop-by-category">
-      <h2 class="section-title-h2">Shop by Category</h2>
-      <div class="category-grid">
-        <div class="category-item">
-          <img src="https://images.hiii-style.com/attachments/media/14b1c3cb-f433-49bc-90ad-b79629dee96c.jpg" alt="Kitchen" />
-          <span class="category-label">Kitchen</span>
-        </div>
-        <div class="category-item">
-          <img src="https://images.hiii-style.com/attachments/media/c40e5fd8-116f-4ef8-ba3b-04b820c2138a.png" alt="Fashion" />
-          <span class="category-label">Fashion</span>
-        </div>
-        <div class="category-item">
-          <img src="https://images.hiii-style.com/attachments/media/d8f47d84-4b7b-48ab-be84-151b61e05bfb.png" alt="Electronics" />
-          <span class="category-label">Electronics</span>
-        </div>
-        <div class="category-item">
-          <img src="https://images.hiii-style.com/attachments/media/3200cba2-d924-44d1-b348-c58c503b1a15.webp" alt="Beauty" />
-          <span class="category-label">Beauty</span>
-        </div>
-        <div class="category-item">
-          <img src="https://images.hiii-style.com/attachments/media/dd02e9c1-97b6-44a9-9710-fe4f90d29c57.jpg" alt="Bags" />
-          <span class="category-label">Bags</span>
-        </div>
-        <div class="category-item">
-          <img src="https://images.hiii-style.com/attachments/media/95d5cea6-6b15-443a-9ad2-b72016001015.jpg" alt="Home" />
-          <span class="category-label">Home</span>
-        </div>
-        <div class="category-item">
-          <img src="https://images.hiii-style.com/attachments/media/c6e0558c-7350-451c-82ea-19758ecd434f.png" alt="Appliances" />
-          <span class="category-label">Appliances</span>
-        </div>
-        <div class="category-item">
-          <img src="https://images.hiii-style.com/attachments/media/ac0f7086-3c0f-4a26-a6b0-134ad0d45639.png" alt="Gadgets" />
-          <span class="category-label">Gadgets</span>
-        </div>
+    <!-- ===== HOME DECOR ===== -->
+    <section class="shop-latest category-section" id="home-decor">
+      <h2 class="section-title-h2">Home Decor</h2>
+      <div class="wall-art-grid">
+        <figure class="wall-art-card">
+          <img src="wall-art-botanical.svg" alt="Framed olive branch botanical wall art in warm neutral tones" loading="lazy" />
+          <figcaption>
+            <h3>Olive Branch</h3>
+            <p>Botanical wall art</p>
+          </figcaption>
+        </figure>
+        <figure class="wall-art-card">
+          <img src="wall-art-arches.svg" alt="Framed abstract arch wall art in terracotta, sand, and cream" loading="lazy" />
+          <figcaption>
+            <h3>Desert Forms</h3>
+            <p>Abstract arch print</p>
+          </figcaption>
+        </figure>
+        <figure class="wall-art-card">
+          <img src="wall-art-sunset.svg" alt="Framed minimalist sunset landscape wall art in muted earth tones" loading="lazy" />
+          <figcaption>
+            <h3>Quiet Horizon</h3>
+            <p>Minimal landscape print</p>
+          </figcaption>
+        </figure>
       </div>
     </section>
-
-    <!-- ===== BRANDS SECTION ===== -->
-    <section class="brands">
-      <h2 class="section-title-h2">Our Brands</h2>
-      <div class="brand-grid">
-        <div class="brand-item">
-          <div class="brand-image"><img src="https://images.hiii-style.com/attachments/media/2e5f749f-17c3-48dc-bb1e-6659be45e243.png" alt="HiiStyle" /></div>
-          <h3>HiiStyle</h3>
-        </div>
-        <div class="brand-item">
-          <div class="brand-image"><img src="https://images.hiii-style.com/attachments/media/2e5f749f-17c3-48dc-bb1e-6659be45e243.png" alt="Shiquo" /></div>
-          <h3>Shiquo</h3>
-        </div>
-        <div class="brand-item">
-          <div class="brand-image"><img src="https://images.hiii-style.com/attachments/media/2e5f749f-17c3-48dc-bb1e-6659be45e243.png" alt="NEEMA" /></div>
-          <h3>NEEMA</h3>
-        </div>
-        <div class="brand-item">
-          <div class="brand-image"><img src="https://images.hiii-style.com/attachments/media/2e5f749f-17c3-48dc-bb1e-6659be45e243.png" alt="Castella" /></div>
-          <h3>Castella</h3>
-        </div>
-        <div class="brand-item">
-          <div class="brand-image"><img src="https://images.hiii-style.com/attachments/media/2e5f749f-17c3-48dc-bb1e-6659be45e243.png" alt="RAF" /></div>
-          <h3>RAF</h3>
-        </div>
-        <div class="brand-item">
-          <div class="brand-image"><img src="https://images.hiii-style.com/attachments/media/2e5f749f-17c3-48dc-bb1e-6659be45e243.png" alt="SmartPro" /></div>
-          <h3>SmartPro</h3>
-        </div>
-      </div>
-    </section>
-
-    <!-- ===== SHOP LATEST PRODUCTS ===== -->
-    <section class="shop-latest" id="shop-latest">
-      <h2 class="section-title-h2">Shop Latest</h2>
-
-      <!-- Filter Tabs -->
-      <div class="filter-tabs">
-        <button class="filter-tab active" data-filter="all">All</button>
-        <button class="filter-tab" data-filter="kitchen">Kitchen &amp; Dining</button>
-        <button class="filter-tab" data-filter="fashion">Fashion</button>
-        <button class="filter-tab" data-filter="electronics">Electronics</button>
-        <button class="filter-tab" data-filter="beauty">Beauty</button>
-        <button class="filter-tab" data-filter="home">Home</button>
-      </div>
-
-      <!-- Products Grid -->
+    <!-- ===== HOME ACCESSORIES ===== -->
+    <section class="shop-latest category-section" id="home-accessories">
+      <h2 class="section-title-h2">Home Accessories</h2>
       <div class="products-grid">
-
-        <!-- Product 1 -->
-        <div class="product-card" data-category="kitchen">
-          <div class="product-image">
-            <img src="https://images.hiii-style.com/attachments/media/2af5f2b5-39e4-420d-9807-8b8c17a931bf.png" alt="Mopao Dinner Set Collection" loading="lazy" />
-          </div>
-          <div class="product-info">
-            <div class="product-name">
-              <span class="product-title">Mopao Dinner Set Collection</span>
-              <button class="wishlist-btn" type="button" aria-label="Add to wishlist">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
-              </button>
-            </div>
-            <div class="product-price">
-              <span class="current-price">Ksh 3,900</span>
-            </div>
-            <div class="product-footer"></div>
-            <div class="product-actions">
-              <button class="product-btn product-btn--primary">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
-                <span>Buy Now</span>
-              </button>
-              <button class="product-btn product-btn--secondary">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
-                <span>Add to Cart</span>
-              </button>
-            </div>
-          </div>
-        </div>
-
-        <!-- Product 2 -->
-        <div class="product-card" data-category="kitchen">
-          <div class="product-image">
-            <img src="https://images.hiii-style.com/attachments/925fac2a986959895b250bf39fd70d50/v1/orig/w1536-q9.png" alt="NEEMA Signature Collection Dinner Set" loading="lazy" />
-          </div>
-          <div class="product-info">
-            <div class="product-name">
-              <span class="product-title">NEEMA Signature Collection Dinner Set</span>
-              <button class="wishlist-btn" type="button" aria-label="Add to wishlist">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
-              </button>
-            </div>
-            <div class="product-price">
-              <span class="current-price">Ksh 2,520</span>
-            </div>
-            <div class="product-footer"></div>
-            <div class="product-actions">
-              <button class="product-btn product-btn--primary">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
-                <span>Buy Now</span>
-              </button>
-              <button class="product-btn product-btn--secondary">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
-                <span>Add to Cart</span>
-              </button>
-            </div>
-          </div>
-        </div>
-
-        <!-- Product 3 -->
-        <div class="product-card" data-category="kitchen">
-          <div class="product-image">
-            <img src="https://images.hiii-style.com/attachments/media/14b1c3cb-f433-49bc-90ad-b79629dee96c.jpg" alt="Castella Cast Iron Cookware Set" loading="lazy" />
-          </div>
-          <div class="product-info">
-            <div class="product-name">
-              <span class="product-title">Castella Cast Iron Cookware Set (11 PCs)</span>
-              <button class="wishlist-btn" type="button" aria-label="Add to wishlist">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
-              </button>
-            </div>
-            <div class="product-price">
-              <span class="current-price">Ksh 12,500</span>
-            </div>
-            <div class="product-footer">
-              <div class="product-colors">
-                <span class="color-dot selected" style="background-color: #ffffff"></span>
-                <span class="color-dot" style="background-color: #ee6e13"></span>
-                <span class="color-dot" style="background-color: #870001"></span>
-                <span class="color-dot" style="background-color: #9bc493"></span>
-                <span class="color-dot" style="background-color: #3e5852"></span>
-                <span class="color-dot" style="background-color: #7eabf2"></span>
-              </div>
-            </div>
-            <div class="product-actions">
-              <button class="product-btn product-btn--primary">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
-                <span>Buy Now</span>
-              </button>
-              <button class="product-btn product-btn--secondary">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
-                <span>Add to Cart</span>
-              </button>
-            </div>
-          </div>
-        </div>
-
-        <!-- Product 4 -->
-        <div class="product-card" data-category="kitchen">
-          <div class="product-image">
-            <img src="https://images.hiii-style.com/attachments/media/c6e0558c-7350-451c-82ea-19758ecd434f.png" alt="RAF Pizza Maker" loading="lazy" />
-          </div>
-          <div class="product-info">
-            <div class="product-name">
-              <span class="product-title">RAF Pizza Maker R.5498 – 1800W Electric Pizza Oven</span>
-              <button class="wishlist-btn" type="button" aria-label="Add to wishlist">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
-              </button>
-            </div>
-            <div class="product-price">
-              <span class="current-price">Ksh 4,950</span>
-            </div>
-            <div class="product-footer"></div>
-            <div class="product-actions">
-              <button class="product-btn product-btn--primary">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
-                <span>Buy Now</span>
-              </button>
-              <button class="product-btn product-btn--secondary">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
-                <span>Add to Cart</span>
-              </button>
-            </div>
-          </div>
-        </div>
-
-        <!-- Product 5 -->
-        <div class="product-card" data-category="kitchen">
-          <div class="product-image">
-            <img src="https://images.hiii-style.com/attachments/media/ac0f7086-3c0f-4a26-a6b0-134ad0d45639.png" alt="SmartPro Air Fryer" loading="lazy" />
-          </div>
-          <div class="product-info">
-            <div class="product-name">
-              <span class="product-title">SmartPro Air Fryer (SAF-232B) 6 Litres</span>
-              <button class="wishlist-btn" type="button" aria-label="Add to wishlist">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
-              </button>
-            </div>
-            <div class="product-price">
-              <span class="current-price">Ksh 4,800</span>
-            </div>
-            <div class="product-footer"></div>
-            <div class="product-actions">
-              <button class="product-btn product-btn--primary">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
-                <span>Buy Now</span>
-              </button>
-              <button class="product-btn product-btn--secondary">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
-                <span>Add to Cart</span>
-              </button>
-            </div>
-          </div>
-        </div>
-
-        <!-- Product 6 -->
-        <div class="product-card" data-category="kitchen">
-          <div class="product-image">
-            <img src="https://images.hiii-style.com/attachments/media/1c42c7c6-da0c-4fe4-ada0-62116818b283.png" alt="Gold-Rim Fruit Platter Set" loading="lazy" />
-          </div>
-          <div class="product-info">
-            <div class="product-name">
-              <span class="product-title">Premium Gold-Rim Fruit Platter Set (6 Pieces)</span>
-              <button class="wishlist-btn" type="button" aria-label="Add to wishlist">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
-              </button>
-            </div>
-            <div class="product-price">
-              <span class="current-price">Ksh 750</span>
-            </div>
-            <div class="product-footer"></div>
-            <div class="product-actions">
-              <button class="product-btn product-btn--primary">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
-                <span>Buy Now</span>
-              </button>
-              <button class="product-btn product-btn--secondary">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
-                <span>Add to Cart</span>
-              </button>
-            </div>
-          </div>
-        </div>
-
-        <!-- Product 7 -->
-        <div class="product-card" data-category="kitchen">
-          <div class="product-image">
-            <img src="https://images.hiii-style.com/attachments/media/148b71e4-9cba-4168-aeb1-19ebfc4f6e82.png" alt="Rebune Blender & Grinder" loading="lazy" />
-          </div>
-          <div class="product-info">
-            <div class="product-name">
-              <span class="product-title">Rebune 2-in-1 Blender &amp; Grinder 1.25L</span>
-              <button class="wishlist-btn" type="button" aria-label="Add to wishlist">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
-              </button>
-            </div>
-            <div class="product-price">
-              <span class="current-price">Ksh 3,500</span>
-            </div>
-            <div class="product-footer"></div>
-            <div class="product-actions">
-              <button class="product-btn product-btn--primary">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
-                <span>Buy Now</span>
-              </button>
-              <button class="product-btn product-btn--secondary">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
-                <span>Add to Cart</span>
-              </button>
-            </div>
-          </div>
-        </div>
-
-        <!-- Product 8 -->
-        <div class="product-card" data-category="kitchen">
-          <div class="product-image">
-            <img src="https://images.hiii-style.com/attachments/media/2af5f2b5-39e4-420d-9807-8b8c17a931bf.png" alt="Gold Dinner Set" loading="lazy" />
-          </div>
-          <div class="product-info">
-            <div class="product-name">
-              <span class="product-title">Gold Dinner Set 24 PCS</span>
-              <button class="wishlist-btn" type="button" aria-label="Add to wishlist">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
-              </button>
-            </div>
-            <div class="product-price">
-              <span class="current-price">Ksh 4,600</span>
-            </div>
-            <div class="product-footer"></div>
-            <div class="product-actions">
-              <button class="product-btn product-btn--primary">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
-                <span>Buy Now</span>
-              </button>
-              <button class="product-btn product-btn--secondary">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
-                <span>Add to Cart</span>
-              </button>
-            </div>
-          </div>
-        </div>
-
-        <!-- Product 9 - Fashion -->
-        <div class="product-card" data-category="fashion">
-          <div class="product-image">
-            <img src="https://images.hiii-style.com/attachments/d56e84df27abef7822581baf2f4da795/v1/orig/w1200-q9.png" alt="Tommy Dolby Cotton Pinstripe Shirt" loading="lazy" />
-          </div>
-          <div class="product-info">
-            <div class="product-name">
-              <span class="product-title">Tommy Dolby Cotton Pinstripe Shirt</span>
-              <button class="wishlist-btn" type="button" aria-label="Add to wishlist">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
-              </button>
-            </div>
-            <div class="product-price">
-              <span class="current-price">Ksh 1,500</span>
-            </div>
-            <div class="product-footer">
-              <div class="product-colors">
-                <span class="color-dot selected" style="background-color: #000080"></span>
-                <span class="color-dot" style="background-color: #daa01e"></span>
-                <span class="color-dot" style="background-color: #800000"></span>
-                <span class="color-dot" style="background-color: #800080"></span>
-                <span class="color-dot" style="background-color: #fffdd0"></span>
-              </div>
-            </div>
-            <div class="product-actions">
-              <button class="product-btn product-btn--primary">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
-                <span>Buy Now</span>
-              </button>
-              <button class="product-btn product-btn--secondary">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
-                <span>Add to Cart</span>
-              </button>
-            </div>
-          </div>
-        </div>
-
-        <!-- Product 10 - Fashion -->
-        <div class="product-card" data-category="fashion">
-          <div class="product-image">
-            <img src="https://images.hiii-style.com/attachments/30c60b3f3ef567af61473a454a5394d7/v1/orig/w1200-q9.png" alt="Bellucci Exclusive Slim-Fit Shirt" loading="lazy" />
-          </div>
-          <div class="product-info">
-            <div class="product-name">
-              <span class="product-title">Bellucci Exclusive Slim-Fit Shirt</span>
-              <button class="wishlist-btn" type="button" aria-label="Add to wishlist">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
-              </button>
-            </div>
-            <div class="product-price">
-              <span class="current-price">Ksh 1,500</span>
-            </div>
-            <div class="product-footer">
-              <div class="product-colors">
-                <span class="color-dot selected" style="background-color: #fffdd0"></span>
-                <span class="color-dot" style="background-color: #008000"></span>
-                <span class="color-dot" style="background-color: #ffffff"></span>
-                <span class="color-dot" style="background-color: #ffc0cb"></span>
-              </div>
-            </div>
-            <div class="product-actions">
-              <button class="product-btn product-btn--primary">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
-                <span>Buy Now</span>
-              </button>
-              <button class="product-btn product-btn--secondary">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
-                <span>Add to Cart</span>
-              </button>
-            </div>
-          </div>
-        </div>
-
-        <!-- Product 11 - Fashion -->
-        <div class="product-card" data-category="fashion">
-          <div class="product-image">
-            <img src="https://images.hiii-style.com/attachments/b0b82c5885a59c0836a1fd5ec03fb2f3/v1/orig/w1600-q9.png" alt="Kids GUCCI Luxury Chinos" loading="lazy" />
-          </div>
-          <div class="product-info">
-            <div class="product-name">
-              <span class="product-title">Kids GUCCI Luxury Chinos</span>
-              <button class="wishlist-btn" type="button" aria-label="Add to wishlist">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
-              </button>
-            </div>
-            <div class="product-price">
-              <span class="current-price">Ksh 600</span>
-            </div>
-            <div class="product-footer">
-              <div class="product-colors">
-                <span class="color-dot selected" style="background-color: #8b0000"></span>
-                <span class="color-dot" style="background-color: #f5f5dc"></span>
-                <span class="color-dot" style="background-color: #800000"></span>
-                <span class="color-dot" style="background-color: #ffffff"></span>
-                <span class="color-dot" style="background-color: #00008b"></span>
-              </div>
-            </div>
-            <div class="product-actions">
-              <button class="product-btn product-btn--primary">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
-                <span>Buy Now</span>
-              </button>
-              <button class="product-btn product-btn--secondary">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
-                <span>Add to Cart</span>
-              </button>
-            </div>
-          </div>
-        </div>
-
-        <!-- Product 12 - Electronics -->
-        <div class="product-card" data-category="electronics">
-          <div class="product-image">
-            <img src="https://images.hiii-style.com/attachments/media/d8f47d84-4b7b-48ab-be84-151b61e05bfb.png" alt="Premium Headphones" loading="lazy" />
-          </div>
-          <div class="product-info">
-            <div class="product-name">
-              <span class="product-title">Premium Wireless Headphones</span>
-              <button class="wishlist-btn" type="button" aria-label="Add to wishlist">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
-              </button>
-            </div>
-            <div class="product-price">
-              <span class="current-price">Ksh 3,200</span>
-            </div>
-            <div class="product-footer"></div>
-            <div class="product-actions">
-              <button class="product-btn product-btn--primary">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
-                <span>Buy Now</span>
-              </button>
-              <button class="product-btn product-btn--secondary">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
-                <span>Add to Cart</span>
-              </button>
-            </div>
-          </div>
-        </div>
-
+        <div class="product-card" data-category="home-accessories">
+                  <div class="product-image">
+                    <img src="https://images.hiii-style.com/attachments/media/1c42c7c6-da0c-4fe4-ada0-62116818b283.png" alt="Gold-Rim Fruit Platter Set" loading="lazy" />
+                  </div>
+                  <div class="product-info">
+                    <div class="product-name">
+                      <span class="product-title">Premium Gold-Rim Fruit Platter Set (6 Pieces)</span>
+                      <button class="wishlist-btn" type="button" aria-label="Add to wishlist">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+                      </button>
+                    </div>
+                    <div class="product-price">
+                      <span class="current-price">Ksh 750</span>
+                    </div>
+                    <div class="product-footer"></div>
+                    <div class="product-actions">
+                      <button class="product-btn product-btn--primary">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
+                        <span>Buy Now</span>
+                      </button>
+                      <button class="product-btn product-btn--secondary">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
+                        <span>Add to Cart</span>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+      </div>
+    </section>
+    <!-- ===== TABLEWARE ===== -->
+    <section class="shop-latest category-section" id="tableware">
+      <h2 class="section-title-h2">Tableware</h2>
+      <div class="products-grid">
+        <div class="product-card" data-category="tableware">
+                  <div class="product-image">
+                    <img src="https://images.hiii-style.com/attachments/media/2af5f2b5-39e4-420d-9807-8b8c17a931bf.png" alt="Mopao Dinner Set Collection" loading="lazy" />
+                  </div>
+                  <div class="product-info">
+                    <div class="product-name">
+                      <span class="product-title">Mopao Dinner Set Collection</span>
+                      <button class="wishlist-btn" type="button" aria-label="Add to wishlist">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+                      </button>
+                    </div>
+                    <div class="product-price">
+                      <span class="current-price">Ksh 3,900</span>
+                    </div>
+                    <div class="product-footer"></div>
+                    <div class="product-actions">
+                      <button class="product-btn product-btn--primary">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
+                        <span>Buy Now</span>
+                      </button>
+                      <button class="product-btn product-btn--secondary">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
+                        <span>Add to Cart</span>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+        <div class="product-card" data-category="tableware">
+                  <div class="product-image">
+                    <img src="https://images.hiii-style.com/attachments/925fac2a986959895b250bf39fd70d50/v1/orig/w1536-q9.png" alt="NEEMA Signature Collection Dinner Set" loading="lazy" />
+                  </div>
+                  <div class="product-info">
+                    <div class="product-name">
+                      <span class="product-title">NEEMA Signature Collection Dinner Set</span>
+                      <button class="wishlist-btn" type="button" aria-label="Add to wishlist">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+                      </button>
+                    </div>
+                    <div class="product-price">
+                      <span class="current-price">Ksh 2,520</span>
+                    </div>
+                    <div class="product-footer"></div>
+                    <div class="product-actions">
+                      <button class="product-btn product-btn--primary">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
+                        <span>Buy Now</span>
+                      </button>
+                      <button class="product-btn product-btn--secondary">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
+                        <span>Add to Cart</span>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+        <div class="product-card" data-category="tableware">
+                  <div class="product-image">
+                    <img src="https://images.hiii-style.com/attachments/media/2af5f2b5-39e4-420d-9807-8b8c17a931bf.png" alt="Gold Dinner Set" loading="lazy" />
+                  </div>
+                  <div class="product-info">
+                    <div class="product-name">
+                      <span class="product-title">Gold Dinner Set 24 PCS</span>
+                      <button class="wishlist-btn" type="button" aria-label="Add to wishlist">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+                      </button>
+                    </div>
+                    <div class="product-price">
+                      <span class="current-price">Ksh 4,600</span>
+                    </div>
+                    <div class="product-footer"></div>
+                    <div class="product-actions">
+                      <button class="product-btn product-btn--primary">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
+                        <span>Buy Now</span>
+                      </button>
+                      <button class="product-btn product-btn--secondary">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
+                        <span>Add to Cart</span>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+      </div>
+    </section>
+    <!-- ===== KITCHEN &AMP; DINING ===== -->
+    <section class="shop-latest category-section" id="kitchen-dining">
+      <h2 class="section-title-h2">Kitchen &amp; Dining</h2>
+      <div class="products-grid">
+        <div class="product-card" data-category="kitchen-dining">
+                  <div class="product-image">
+                    <img src="https://images.hiii-style.com/attachments/media/c6e0558c-7350-451c-82ea-19758ecd434f.png" alt="RAF Pizza Maker" loading="lazy" />
+                  </div>
+                  <div class="product-info">
+                    <div class="product-name">
+                      <span class="product-title">RAF Pizza Maker R.5498 – 1800W Electric Pizza Oven</span>
+                      <button class="wishlist-btn" type="button" aria-label="Add to wishlist">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+                      </button>
+                    </div>
+                    <div class="product-price">
+                      <span class="current-price">Ksh 4,950</span>
+                    </div>
+                    <div class="product-footer"></div>
+                    <div class="product-actions">
+                      <button class="product-btn product-btn--primary">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
+                        <span>Buy Now</span>
+                      </button>
+                      <button class="product-btn product-btn--secondary">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
+                        <span>Add to Cart</span>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+        <div class="product-card" data-category="kitchen-dining">
+                  <div class="product-image">
+                    <img src="https://images.hiii-style.com/attachments/media/ac0f7086-3c0f-4a26-a6b0-134ad0d45639.png" alt="SmartPro Air Fryer" loading="lazy" />
+                  </div>
+                  <div class="product-info">
+                    <div class="product-name">
+                      <span class="product-title">SmartPro Air Fryer (SAF-232B) 6 Litres</span>
+                      <button class="wishlist-btn" type="button" aria-label="Add to wishlist">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+                      </button>
+                    </div>
+                    <div class="product-price">
+                      <span class="current-price">Ksh 4,800</span>
+                    </div>
+                    <div class="product-footer"></div>
+                    <div class="product-actions">
+                      <button class="product-btn product-btn--primary">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
+                        <span>Buy Now</span>
+                      </button>
+                      <button class="product-btn product-btn--secondary">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
+                        <span>Add to Cart</span>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+        <div class="product-card" data-category="kitchen-dining">
+                  <div class="product-image">
+                    <img src="https://images.hiii-style.com/attachments/media/148b71e4-9cba-4168-aeb1-19ebfc4f6e82.png" alt="Rebune Blender & Grinder" loading="lazy" />
+                  </div>
+                  <div class="product-info">
+                    <div class="product-name">
+                      <span class="product-title">Rebune 2-in-1 Blender &amp; Grinder 1.25L</span>
+                      <button class="wishlist-btn" type="button" aria-label="Add to wishlist">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+                      </button>
+                    </div>
+                    <div class="product-price">
+                      <span class="current-price">Ksh 3,500</span>
+                    </div>
+                    <div class="product-footer"></div>
+                    <div class="product-actions">
+                      <button class="product-btn product-btn--primary">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
+                        <span>Buy Now</span>
+                      </button>
+                      <button class="product-btn product-btn--secondary">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
+                        <span>Add to Cart</span>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+      </div>
+    </section>
+    <!-- ===== COOKWARE ===== -->
+    <section class="shop-latest category-section" id="cookware">
+      <h2 class="section-title-h2">Cookware</h2>
+      <div class="products-grid">
+        <div class="product-card" data-category="cookware">
+                  <div class="product-image">
+                    <img src="https://images.hiii-style.com/attachments/media/14b1c3cb-f433-49bc-90ad-b79629dee96c.jpg" alt="Castella Cast Iron Cookware Set" loading="lazy" />
+                  </div>
+                  <div class="product-info">
+                    <div class="product-name">
+                      <span class="product-title">Castella Cast Iron Cookware Set (11 PCs)</span>
+                      <button class="wishlist-btn" type="button" aria-label="Add to wishlist">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+                      </button>
+                    </div>
+                    <div class="product-price">
+                      <span class="current-price">Ksh 12,500</span>
+                    </div>
+                    <div class="product-footer">
+                      <div class="product-colors">
+                        <span class="color-dot selected" style="background-color: #ffffff"></span>
+                        <span class="color-dot" style="background-color: #ee6e13"></span>
+                        <span class="color-dot" style="background-color: #870001"></span>
+                        <span class="color-dot" style="background-color: #9bc493"></span>
+                        <span class="color-dot" style="background-color: #3e5852"></span>
+                        <span class="color-dot" style="background-color: #7eabf2"></span>
+                      </div>
+                    </div>
+                    <div class="product-actions">
+                      <button class="product-btn product-btn--primary">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
+                        <span>Buy Now</span>
+                      </button>
+                      <button class="product-btn product-btn--secondary">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
+                        <span>Add to Cart</span>
+                      </button>
+                    </div>
+                  </div>
+                </div>
       </div>
     </section>
   </main>
@@ -734,7 +497,7 @@
     <div class="newsletter__inner">
       <div class="newsletter__text">
         <h2>Stay in the Loop</h2>
-        <p>Get exclusive deals, new arrivals, and style tips delivered straight to your inbox.</p>
+        <p>Get home styling ideas, new arrivals, and exclusive deals delivered straight to your inbox.</p>
       </div>
       <form class="newsletter__form" onsubmit="event.preventDefault(); this.querySelector('button').textContent = '✓ Subscribed!'; this.querySelector('input').value = '';">
         <input type="email" placeholder="Enter your email address" required />
@@ -742,81 +505,6 @@
       </form>
     </div>
   </section>
-
-  <!-- ===== FOOTER ===== -->
-  <footer class="footer">
-    <div class="footer-content">
-      <div class="footer-column">
-        <h3>Products</h3>
-        <ul>
-          <li><a href="#">Catalog</a></li>
-          <li><a href="#">Lookbook</a></li>
-          <li><a href="#">Outfit Ideas</a></li>
-          <li><a href="#">Size Guide</a></li>
-          <li><a href="#">Wishlist</a></li>
-          <li><a href="#">New Arrivals</a></li>
-        </ul>
-      </div>
-      <div class="footer-column">
-        <h3>The Brand</h3>
-        <ul>
-          <li><a href="#">Our Story</a></li>
-          <li><a href="#">Join the Team</a></li>
-          <li><a href="#">In the Press</a></li>
-          <li><a href="#">Latest News</a></li>
-          <li><a href="#">Brand Assets</a></li>
-          <li><a href="#">Get in Touch</a></li>
-        </ul>
-      </div>
-      <div class="footer-column">
-        <h3>Learn More</h3>
-        <ul>
-          <li><a href="#">Style Blog</a></li>
-          <li><a href="#">Email Sign-Up</a></li>
-          <li><a href="#">Events</a></li>
-          <li><a href="#">FAQ</a></li>
-          <li><a href="#">Video Guides</a></li>
-          <li><a href="#">Help</a></li>
-        </ul>
-      </div>
-      <div class="footer-column">
-        <h3>Occasions</h3>
-        <ul>
-          <li><a href="#">For Students</a></li>
-          <li><a href="#">For Business</a></li>
-          <li><a href="#">For Agencies</a></li>
-          <li><a href="#">B2B</a></li>
-          <li><a href="#">B2C</a></li>
-          <li><a href="#">Retailers</a></li>
-        </ul>
-      </div>
-      <div class="footer-column">
-        <h3>Connect</h3>
-        <ul>
-          <li><a href="#">Twitter</a></li>
-          <li><a href="#">Threads</a></li>
-          <li><a href="#">Facebook</a></li>
-          <li><a href="#">Instagram</a></li>
-          <li><a href="#">Tiktok</a></li>
-          <li><a href="#">Pinterest</a></li>
-        </ul>
-      </div>
-      <div class="footer-column">
-        <h3>Policies</h3>
-        <ul>
-          <li><a href="#">T&amp;Cs</a></li>
-          <li><a href="#">Data</a></li>
-          <li><a href="#">Cookies</a></li>
-          <li><a href="#">Attributions</a></li>
-          <li><a href="#">Preferences</a></li>
-          <li><a href="#">Support</a></li>
-        </ul>
-      </div>
-    </div>
-    <div class="footer-bottom">
-      <p>&copy; 2026 HiiStyle. All rights reserved.</p>
-    </div>
-  </footer>
 
   <!-- ===== CART DRAWER ===== -->
   <div class="cart-drawer" id="cart-drawer">

@@ -36,34 +36,6 @@ function resetTimer() {
   slideTimer = setInterval(nextSlide, 5000);
 }
 
-// ===== FILTER TABS =====
-function initFilterTabs() {
-  const tabs = document.querySelectorAll('.filter-tab');
-  const cards = document.querySelectorAll('.product-card');
-
-  tabs.forEach(tab => {
-    tab.addEventListener('click', () => {
-      tabs.forEach(t => t.classList.remove('active'));
-      tab.classList.add('active');
-
-      const filter = tab.dataset.filter;
-
-      cards.forEach(card => {
-        if (filter === 'all') {
-          card.style.display = 'flex';
-        } else {
-          const categories = card.dataset.category || '';
-          if (categories.includes(filter)) {
-            card.style.display = 'flex';
-          } else {
-            card.style.display = 'none';
-          }
-        }
-      });
-    });
-  });
-}
-
 // ===== CART DRAWER =====
 function initCartDrawer() {
   const cartBtn = document.getElementById('cart-btn');
@@ -120,6 +92,13 @@ function initSideMenu() {
   if (trigger) trigger.addEventListener('click', openMenu);
   if (overlay) overlay.addEventListener('click', closeMenu);
   if (closeBtn) closeBtn.addEventListener('click', closeMenu);
+  menu?.querySelectorAll('a[href^="#"]').forEach(link => {
+    link.addEventListener('click', () => {
+      if (link.hash && document.getElementById(link.hash.slice(1))) {
+        closeMenu();
+      }
+    });
+  });
 
   // Close with Escape key
   document.addEventListener('keydown', (e) => {
@@ -209,17 +188,6 @@ function initImageLoad() {
         // Keep placeholder on error
       });
     }
-  });
-}
-
-// ===== CATEGORY NAV HOVER EFFECT =====
-function initCategoryNav() {
-  document.querySelectorAll('.categories span').forEach(span => {
-    span.addEventListener('click', () => {
-      // Scroll to relevant section or just visual feedback
-      span.style.color = '#000';
-      setTimeout(() => { span.style.color = ''; }, 300);
-    });
   });
 }
 
@@ -319,14 +287,12 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   // Init all modules
-  initFilterTabs();
   initCartDrawer();
   initSideMenu();
   initScrollProgress();
   initBackToTop();
   initWishlist();
   initImageLoad();
-  initCategoryNav();
   initSearch();
   initButtons();
   initColorDots();
